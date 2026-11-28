@@ -1,0 +1,24 @@
+# Secrets — JANGAN PERNAH ke-commit
+searxng-official/.env
+searxng-official/core-config/settings.yml
+*.env
+
+# Data hasil run (lokal, gede, berubah terus)
+searxng-official/pipeline.db
+searxng-official/pipeline.jsonl
+searxng-official/pipeline-v1-keyword-only.jsonl
+searxng-official/candidates.jsonl
+searxng-official/llm_results.jsonl
+searxng-official/llm_raw_last.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Windows
+*:Zone.Identifier
+*.Zone.Identifier
+
+# Docker volumes SearXNG
+searxng-official/core-data/
+searxng-official/valkey-data/
